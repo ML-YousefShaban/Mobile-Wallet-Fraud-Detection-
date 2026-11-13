@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+# the 470 MB Kaggle file is not redistributed
+data/*.csv
+# temporary files written by the notebook's export step
+paysim_fraud_bundle.candidate.pkl
+paysim_fraud_bundle.previous.pkl
+_holdout_check.pkl

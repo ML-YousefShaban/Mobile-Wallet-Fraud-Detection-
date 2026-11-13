@@ -1,0 +1,19 @@
+# Python: everything was tested with 3.12.3. The original model was trained with 3.13.5 using the four scientific
+# packages pinned below, so 3.13 should also work; the other packages were not tried on 3.13.
+#
+# These four are pinned to the versions stored inside paysim_fraud_bundle.pkl (training environment).
+# The saved model only loads reliably with matching scikit-learn / lightgbm / numpy / pandas.
+numpy==2.2.6
+pandas==2.3.1
+scikit-learn==1.7.1
+lightgbm==4.7.0
+
+# Pinned to the versions used to run the app, the notebook and the tests during the audit.
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+streamlit==1.67.0
+ipykernel==7.4.0
+pytest==9.2.0
+
+# To open the notebook in a browser also run:  pip install jupyterlab   (or use VS Code's notebook support)
